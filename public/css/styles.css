@@ -329,6 +329,13 @@ nav {
     background-color: #0022AA;
 }
 
+.cleanbtn {
+    margin-top  : 15px !important;
+    all         : unset;
+    cursor      : pointer;
+    color       : var(--lightblue-ML);
+}
+
 /* FIN ESTILOS REGISTRAR */
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -361,6 +368,10 @@ nav {
 .footer-section {
     width   : 350px;
     margin  : 20px;
+}
+
+.footer-section-tittle {
+    padding-bottom: 10px;
 }
 
 /* FIN ESTILOS FOOTER */

@@ -92,8 +92,14 @@
                         title="Debe contener al menos un número, una letra mayúscula, minúscula, y al menos 8 o más caracteres">
                     </div>
                     <div class="form-input-div">
+                        <label for="fpassword" class="label-form">Ingrese nuevamente su Contraseña</label>
+                        <input type="password" id="fpassword" placeholder="Contraseña" class="input-form" 
+                        required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Debe contener al menos un número, una letra mayúscula, minúscula, y al menos 8 o más caracteres">
+                    </div>
+                    <div class="form-input-div">
                         <label for="femail" class="label-form">Correo electrónico</label>
-                        <input type="email" id="femail" placeholder="email" class="input-form" required>
+                        <input type="email" id="femail" placeholder="hola@mundo.com" class="input-form" required>
                     </div>
                     <div class="form-input-div">
                         <label for="fborndate" class="label-form">Fecha de nacimiento</label>
@@ -170,6 +176,7 @@
                             <input type="checkbox" name="checktecno" id="checktecno">
                             <label class="label-form label-form-check" for="checktecno">Tecnología</label>
                         </div>
+                        <input type="reset" name="Limpiar" class="forgetpass cleanbtn">
                     </div>
                     <input type="submit" value="Registrarme" class="form-button-reg">
                 </form>
