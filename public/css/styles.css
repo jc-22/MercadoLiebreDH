@@ -160,23 +160,24 @@ nav {
 /* INICIO ESTILOS HOME */
 
 .home-products {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    flex-wrap: wrap;
-    text-align: start;
-    width: 100%;
-    padding: 10px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : start;
+    flex-wrap       : wrap;
+    text-align      : start;
+    width           : 100%;
+    padding         : 10px;
+    align-content   : center;
 }
 
 .last-visit,
 .offerts {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-content: start;
-    justify-items: start;
-    align-items: start;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : start;
+    align-content   : start;
+    justify-items   : start;
+    align-items     : start;
 }
 
 /* FIN ESTILOS HOME */
